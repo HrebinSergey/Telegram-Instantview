@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <title>$title</title>
+    <meta property="og:site_name" content="Имя cайта статичное">
+    <meta property="og:description" content="Описание сайта статичное">
+    <meta property="article:author" content="Автор статичное">
+    <!-- $image_url / link preview image is set using og:image property -->
+    <!-- <meta property="og:image" content="http://example.com/img.jpeg"> -->
+    <meta property="telegram:channel" content="@cor_bee">
+    <!-- site_verification property must be present, but @content could be empty (no IVBot-side verification for now?) -->
+    <meta property="tg:site_verification" content="g7j8/rPFXfhyrq5q0QQV7EsYWv4=">
+    <!-- published_time property must be present, but you could leave @content empty if $published_date isn't needed -->
+    <meta property="article:published_time" content="2020-02-03T23:10:04.654Z">
+</head>
+
+<body>
+    <div class="article">
+        <article class="article__content">
+            <!-- your "IV-compliant" article body goes here -->
+            <!-- for general idea of what "IV-compliant" HTML is refer to IV documentation: 
+                https://instantview.telegram.org/docs#supported-types (HTML counterpart and allowed children columns) -->
+
+            <!-- if first element in article is figure it's going to be set/used as article $cover-->
+            <!-- <figure>
+                <img src="http://example.com/img.jpeg" />
+                <figcaption>figcaption</figcaption>
+            </figure> -->
+
+            <figure contenteditable="false"><div class="figure_wrapper"><img src="https://gitlab.com/shrebin1/email/-/raw/main-section/image/image1.png?ref_type=heads"></div><span class="cursor_wrapper" contenteditable="true"></span><figcaption dir="auto" class="editable_text" data-placeholder="Caption (optional)"></figcaption></figure>
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus vitae fugiat doloremque eaque. Nobis, nesciunt consectetur? Cumque odit ut nobis libero voluptatem id recusandae, saepe, quidem ex rem quam magni? Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium aliquam ab aspernatur eaque natus tempora? Minus consequuntur vel, expedita dolorum impedit unde repellendus quo culpa numquam tempore itaque quod odit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga maxime voluptates dolorem voluptatibus magni, sunt consequatur nulla corrupti quidem provident ipsum esse quisquam assumenda enim dignissimos, placeat aliquam optio laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non alias fugit, hic natus accusamus atque, sequi fugiat architecto maiores minima ea quia vero, ab sapiente nulla? Dolorem nam asperiores quia.</p>
+        </article>
+    </div>
+</body>
+
+</html>
